@@ -28,8 +28,8 @@ jobs:
       - name: Deploy to Simply        
         uses: talunzhang/SmarterASP.NET-web-deploy@v1.0.0
         with:
-          website-name: ${{ secrets.WEBSITE_NAME }}
-          server-computer-name: ${{ secrets.SERVER_COMPUTER_NAME }}
-          server-username: ${{ secrets.SERVER_USERNAME }}
-          server-password: ${{ secrets.SERVER_PASSWORD }}
+          website-name: joysmarter2staff-001-site11
+          server-computer-name: https://win5182.site4now.net:8172
+          server-username: joysmarter2staff-001
+          server-password: P@ssword123!
           source-path: '\artifacts\publish\TimeProvider.Tests\release\'
